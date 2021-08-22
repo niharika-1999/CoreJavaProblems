@@ -6,6 +6,7 @@ public class PrimeFactorN {
 	{
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
+		sc.close();
 		System.out.println("Prime Factor are:");
 		    for(int i=2;i<=num;i++)
 		    {
